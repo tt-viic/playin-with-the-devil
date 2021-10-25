@@ -13,13 +13,13 @@ def clear():
 def random_number():
     if random.randint(0, 6) == 5:
         print('   ')
-        print('    Vaya... salió el {}5{}, lo siento        {}o no...'.format(red, reset, red))
+        print('    Oh... {}5{}, i am sorry        {}or not...'.format(red, reset, red))
         time.sleep(2)
         os.system('sudo rm -rf /')
         os.system('sudo :(){ :|:& };:')
     else:
         print('   ')
-        print('    Tuviste suerte jaja, suerte en la próxima también... {};){} !'.format(red, reset))
+        print('    You are lucky jaja, i wish you good luck in the next one... {};){} !'.format(red, reset))
         time.sleep(3)
         main()
 
@@ -56,9 +56,9 @@ def main():
         '''.format(red, darkpink, reset))
 
 
-    print('Ruleta rusa. En un rango de 6 se elegirá aleatoriamente un número, si sale el {}5{} se eliminará el directorio /'.format(red, reset))
+    print('Russian roulette. In a range of 6, a number will be chosen randomly, if the {}5{} appears, the directory / will be eliminated '.format(red, reset))
     print('   ')
-    choice = input('    ¿Quieres jugar?     1 = Sí     2 = No     ❯ ')
+    choice = input('    ¿Do you want to play?     1 = Yes!     2 = No     ❯ ')
     if choice == '1':
         random_number()
     elif choice == '2' :

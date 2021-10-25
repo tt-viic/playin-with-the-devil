@@ -1,5 +1,5 @@
 # playin-with-the-devil
-¡PLAY THE RUSSIAN ROULLETE WITH YOUR OPERATING SYSTEM!
+¡PLAY THE RUSSIAN ROULETE WITH YOUR OPERATING SYSTEM!
 
 > This script only works in GNU/Linux.
 
